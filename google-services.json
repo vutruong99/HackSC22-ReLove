@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1032407447189",
+    "project_id": "relove-69ea1",
+    "storage_bucket": "relove-69ea1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032407447189:android:4ebc7fcfc517e5e6140d9c",
+        "android_client_info": {
+          "package_name": "com.example.relove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032407447189-d44a27bk0f6c63msp78srhck1ndc56ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi9K2GsqnOMyTbfBqzievfHAAqBxOJ57k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032407447189-d44a27bk0f6c63msp78srhck1ndc56ku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

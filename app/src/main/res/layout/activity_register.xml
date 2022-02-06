@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:background="@color/white"
+    android:focusable="true"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/curved_background"
+        android:layout_width="@dimen/_600sdp"
+        android:layout_height="@dimen/_350sdp"
+        android:background="@drawable/round_gradient"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </LinearLayout>
+
+    <!--    <EditText-->
+    <!--        android:layout_marginBottom="330dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/curved_background"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/curved_background"-->
+    <!--        android:paddingStart="40dp"-->
+    <!--        android:paddingEnd="0dp"-->
+    <!--        android:paddingRight="0dp"-->
+    <!--        android:inputType="text"-->
+    <!--        android:hint="@string/username"-->
+    <!--        android:textColorHint="@color/colorBlack"-->
+    <!--        android:textColor="@color/colorBlack"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:id="@+id/reg_username"-->
+    <!--        android:background="@drawable/rounded_edit_text_white"-->
+    <!--        android:importantForAutofill="no"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        android:paddingLeft="60dp">-->
+    <!--    </EditText>-->
+
+    <EditText
+        android:fontFamily="@font/sf_med"
+        android:id="@+id/reg_email"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="@dimen/_250sdp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/emailLoginHint"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingEnd="@dimen/_16sdp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintBottom_toBottomOf="@id/curved_background"
+        android:background="@drawable/rounded_edit_text_white"
+        android:importantForAutofill="no"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_36sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="@dimen/_36sdp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="@dimen/_36sdp">
+    </EditText>
+
+    <EditText
+        android:fontFamily="@font/sf_med"
+        android:id="@+id/reg_password"
+        android:inputType="textPassword"
+        android:hint="@string/passwordLoginHint"
+        app:layout_constraintTop_toBottomOf="@id/reg_email"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingEnd="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:background="@drawable/rounded_edit_text_white"
+        android:importantForAutofill="no"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_36sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="@dimen/_36sdp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="@dimen/_36sdp">
+    </EditText>
+
+    <EditText
+        android:fontFamily="@font/sf_med"
+        app:layout_constraintTop_toBottomOf="@id/reg_password"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingEnd="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:inputType="textPassword"
+        android:hint="@string/retype_password"
+        android:id="@+id/reg_re_password"
+        android:background="@drawable/rounded_edit_text_white"
+        android:importantForAutofill="no"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_36sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="@dimen/_36sdp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="@dimen/_36sdp">
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:fontFamily="@font/sf_bold"
+        app:layout_constraintBottom_toBottomOf="@id/curved_background"
+        android:textAllCaps="false"
+        android:id="@+id/registerBtn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/button_click_effect"
+        android:text="@string/register"
+        android:textColor="#FFF"
+        android:textSize="@dimen/_14ssp"
+        android:layout_marginStart="@dimen/_36sdp"
+        android:layout_marginEnd="@dimen/_36sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/reg_re_password">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <TextView
+        android:fontFamily="@font/sf_bold"
+        android:id="@+id/continueWith"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/googleLogin"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Or continue with"
+        android:textSize="@dimen/_18ssp"
+        android:textColor="@color/primaryColor"
+        android:layout_marginBottom="10dp">
+    </TextView>
+
+    <ImageView
+        android:layout_marginBottom="@dimen/_16sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/ic_google"
+        android:id="@+id/googleLogin"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:contentDescription="">
+    </ImageView>
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:id="@+id/loadingDialog"
+        android:background="@drawable/button_background_pblue"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="wrap_content">
+
+<!--        <ProgressBar-->
+<!--            android:id="@+id/loading"-->
+<!--            android:visibility="visible"-->
+<!--            android:indeterminate="true"-->
+<!--            android:indeterminateDrawable="@drawable/custom_progress_dialog"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--        </ProgressBar>-->
+
+<!--        <TextView-->
+<!--            android:textSize="@dimen/_14ssp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/please_wait"-->
+<!--            android:textColor="@color/colorWhite">-->
+
+<!--        </TextView>-->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

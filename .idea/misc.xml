@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/button_background_pblue.xml" value="0.124" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/button_click_effect.xml" value="0.124" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/button_click_effect_2.xml" value="0.1875" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/favorite_selector.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/forum_selector.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/home_selector.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/ic_favorite.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/ic_favorite_unselected.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/ic_forum.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/ic_forum_unselected.xml" value="0.124" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/ic_home.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/ic_home_unselected.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/ic_person.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/ic_person_unselected.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/ic_search.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/ic_unselected.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/profile_selector.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/round_border_item.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/round_border_navigation_bar.xml" value="0.124" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/round_gradient.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/round_home_fragment.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/rounded_darker_grey.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/rounded_edit_text_grey.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/rounded_edit_text_white.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/rounded_grey_background.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/rounded_grey_background_2.xml" value="0.1875" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/store_item.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/drawable/story_selector.xml" value="0.2265" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/font/sf_pro.xml" value="0.284375" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/activity_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/activity_store.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/fragment_favorite.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/fragment_homes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/fragment_others.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/fragment_schools.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/fragment_shops.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/fragment_socials.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/fragment_story.xml" value="0.264" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/store_2_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/layout/store_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/truon/AndroidStudioProjects/Relove/app/src/main/res/menu/bottom_navigation.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

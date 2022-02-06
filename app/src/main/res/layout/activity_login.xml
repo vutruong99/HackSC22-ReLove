@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_marginTop="@dimen/_32sdp"
+        android:id="@+id/logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:scaleType="centerCrop"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/whiterelovelogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/appName">
+
+    </ImageView>
+
+    <TextView
+        android:fontFamily="@font/sf_heavy"
+        android:id="@+id/appName"
+        android:gravity="center"
+        android:textSize="@dimen/_48ssp"
+        app:layout_constraintBottom_toTopOf="@id/usernameFrame"
+        android:textColor="#FFF"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/relove">
+
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/usernameFrame"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="@dimen/_32sdp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/passwordFrame"
+        app:layout_constraintTop_toBottomOf="@id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_32sdp"
+        android:layout_marginLeft="@dimen/_32sdp"
+        android:layout_marginRight="@dimen/_32sdp">
+
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/emailET"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/rounded_edit_text_white"
+            android:fontFamily="@font/sf_med"
+            android:hint="@string/emailLoginHint"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_32sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+        </EditText>
+
+        <ImageView
+
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:contentDescription=""
+            android:src="@drawable/ic_username">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/passwordFrame"
+        android:layout_marginEnd="@dimen/_32sdp"
+        android:layout_marginLeft="@dimen/_32sdp"
+        android:layout_marginRight="@dimen/_32sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usernameFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/rounded_edit_text_white"
+            android:fontFamily="@font/sf_med"
+            android:hint="@string/passwordLoginHint"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_32sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+        </EditText>
+
+        <ImageView
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_password"
+            android:contentDescription="">
+        </ImageView>
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        app:cornerRadius="@dimen/_18sdp"
+        app:layout_constraintTop_toBottomOf="@id/passwordFrame"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="@dimen/_32sdp"
+        android:layout_marginEnd="@dimen/_32sdp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:fontFamily="@font/sf_bold"
+        android:id="@+id/loginButton"
+        android:textAllCaps="false"
+        android:background="@drawable/button_click_effect"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@color/white"
+        android:text="@string/loginText"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textSize="@dimen/_15ssp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+    <!--    <EditText-->
+    <!--        android:drawablePadding="20dp"-->
+    <!--        android:drawableStart="@drawable/ic_password"-->
+    <!--        android:hint="@string/password"-->
+    <!--        android:textColorHint="#FFF"-->
+    <!--        android:textColor="#FFF"-->
+    <!--        app:fontFamily="@font/ubuntu_bold"-->
+    <!--        android:paddingLeft="60dp"-->
+    <!--        android:paddingRight="0dp"-->
+    <!--        android:id="@+id/password"-->
+    <!--        android:background="@drawable/rounded_grey_background"-->
+    <!--        android:autofillHints="@string/nothingbro"-->
+    <!--        android:layout_width="350dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/username"-->
+    <!--        android:paddingStart="20dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:paddingEnd="0dp"-->
+    <!--        android:drawableLeft="@drawable/ic_username">-->
+    <!--    </EditText>-->
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/login"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/password"-->
+    <!--        android:text="@string/login"-->
+    <!--        android:textColor="#FFF"-->
+    <!--        app:fontFamily="@font/ubuntu_bold"-->
+    <!--        android:textSize="40sp"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content">-->
+
+    <!--    </TextView>-->
+
+
+    <Button
+        android:fontFamily="@font/sf_bold"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_passwordText"
+        android:textColor="@color/white_text_color_selector"
+        android:id="@+id/forgotPassword"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/createAccountButton"
+        android:layout_marginBottom="30dp">
+    </Button>
+
+    <Button
+        android:fontFamily="@font/sf_bold"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or_create_an_account"
+        android:textColor="@color/white_text_color_selector"
+        android:id="@+id/createAccountButton"
+        android:textSize="@dimen/_18ssp"
+        android:padding="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30dp">
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
